@@ -47,6 +47,6 @@ class PagesController extends Controller
                             ->get();
 
         return view('search', compact('query', 'packages', 'services'));
-    }//     public function search(Request $request)
+    }
 
 }
